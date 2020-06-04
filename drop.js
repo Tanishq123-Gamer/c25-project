@@ -15,7 +15,7 @@ class Drop{
 
     fall(){
         this.yPos=this.yPos+random(10,30)
-        if(this.yPos>800){
+        if(this.yPos>height){
             this.yPos=0;
 
         }
